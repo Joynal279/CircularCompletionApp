@@ -1,0 +1,714 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F2EE18822AAB8DB5003EAF46 /* CircularCompletionAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2EE18812AAB8DB5003EAF46 /* CircularCompletionAppApp.swift */; };
+		F2EE18842AAB8DB5003EAF46 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2EE18832AAB8DB5003EAF46 /* ContentView.swift */; };
+		F2EE18862AAB8DB6003EAF46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2EE18852AAB8DB6003EAF46 /* Assets.xcassets */; };
+		F2EE18892AAB8DB6003EAF46 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2EE18882AAB8DB6003EAF46 /* Preview Assets.xcassets */; };
+		F2EE188F2AAB8DB6003EAF46 /* CircularCompletionApp Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = F2EE188E2AAB8DB6003EAF46 /* CircularCompletionApp Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F2EE18942AAB8DB6003EAF46 /* CircularCompletionAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2EE18932AAB8DB6003EAF46 /* CircularCompletionAppApp.swift */; };
+		F2EE18962AAB8DB6003EAF46 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2EE18952AAB8DB6003EAF46 /* ContentView.swift */; };
+		F2EE18982AAB8DB7003EAF46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2EE18972AAB8DB7003EAF46 /* Assets.xcassets */; };
+		F2EE189B2AAB8DB7003EAF46 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2EE189A2AAB8DB7003EAF46 /* Preview Assets.xcassets */; };
+		F2EE18AC2AAB8EE1003EAF46 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2EE18AB2AAB8EE1003EAF46 /* WidgetKit.framework */; };
+		F2EE18AE2AAB8EE1003EAF46 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2EE18AD2AAB8EE1003EAF46 /* SwiftUI.framework */; };
+		F2EE18B12AAB8EE1003EAF46 /* CircularCompletionWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2EE18B02AAB8EE1003EAF46 /* CircularCompletionWidget.swift */; };
+		F2EE18B32AAB8EE1003EAF46 /* AppIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2EE18B22AAB8EE1003EAF46 /* AppIntent.swift */; };
+		F2EE18B52AAB8EE4003EAF46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2EE18B42AAB8EE4003EAF46 /* Assets.xcassets */; };
+		F2EE18B92AAB8EE4003EAF46 /* CircularCompletionWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = F2EE18A92AAB8EE1003EAF46 /* CircularCompletionWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F2EE18902AAB8DB6003EAF46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2EE18762AAB8DB5003EAF46 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2EE188D2AAB8DB6003EAF46;
+			remoteInfo = "CircularCompletionApp Watch App";
+		};
+		F2EE18B72AAB8EE4003EAF46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2EE18762AAB8DB5003EAF46 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2EE18A82AAB8EE1003EAF46;
+			remoteInfo = CircularCompletionWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F2EE18A12AAB8DB7003EAF46 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				F2EE188F2AAB8DB6003EAF46 /* CircularCompletionApp Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2EE18BD2AAB8EE4003EAF46 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				F2EE18B92AAB8EE4003EAF46 /* CircularCompletionWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F2EE187E2AAB8DB5003EAF46 /* CircularCompletionApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CircularCompletionApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2EE18812AAB8DB5003EAF46 /* CircularCompletionAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularCompletionAppApp.swift; sourceTree = "<group>"; };
+		F2EE18832AAB8DB5003EAF46 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F2EE18852AAB8DB6003EAF46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F2EE18882AAB8DB6003EAF46 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F2EE188E2AAB8DB6003EAF46 /* CircularCompletionApp Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CircularCompletionApp Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2EE18932AAB8DB6003EAF46 /* CircularCompletionAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularCompletionAppApp.swift; sourceTree = "<group>"; };
+		F2EE18952AAB8DB6003EAF46 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F2EE18972AAB8DB7003EAF46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F2EE189A2AAB8DB7003EAF46 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F2EE18A92AAB8EE1003EAF46 /* CircularCompletionWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = CircularCompletionWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2EE18AB2AAB8EE1003EAF46 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		F2EE18AD2AAB8EE1003EAF46 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		F2EE18B02AAB8EE1003EAF46 /* CircularCompletionWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularCompletionWidget.swift; sourceTree = "<group>"; };
+		F2EE18B22AAB8EE1003EAF46 /* AppIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIntent.swift; sourceTree = "<group>"; };
+		F2EE18B42AAB8EE4003EAF46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F2EE18B62AAB8EE4003EAF46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F2EE187B2AAB8DB5003EAF46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2EE188B2AAB8DB6003EAF46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2EE18A62AAB8EE1003EAF46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2EE18AE2AAB8EE1003EAF46 /* SwiftUI.framework in Frameworks */,
+				F2EE18AC2AAB8EE1003EAF46 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F2EE18752AAB8DB5003EAF46 = {
+			isa = PBXGroup;
+			children = (
+				F2EE18802AAB8DB5003EAF46 /* CircularCompletionApp */,
+				F2EE18922AAB8DB6003EAF46 /* CircularCompletionApp Watch App */,
+				F2EE18AF2AAB8EE1003EAF46 /* CircularCompletionWidget */,
+				F2EE18AA2AAB8EE1003EAF46 /* Frameworks */,
+				F2EE187F2AAB8DB5003EAF46 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F2EE187F2AAB8DB5003EAF46 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2EE187E2AAB8DB5003EAF46 /* CircularCompletionApp.app */,
+				F2EE188E2AAB8DB6003EAF46 /* CircularCompletionApp Watch App.app */,
+				F2EE18A92AAB8EE1003EAF46 /* CircularCompletionWidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2EE18802AAB8DB5003EAF46 /* CircularCompletionApp */ = {
+			isa = PBXGroup;
+			children = (
+				F2EE18812AAB8DB5003EAF46 /* CircularCompletionAppApp.swift */,
+				F2EE18832AAB8DB5003EAF46 /* ContentView.swift */,
+				F2EE18852AAB8DB6003EAF46 /* Assets.xcassets */,
+				F2EE18872AAB8DB6003EAF46 /* Preview Content */,
+			);
+			path = CircularCompletionApp;
+			sourceTree = "<group>";
+		};
+		F2EE18872AAB8DB6003EAF46 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F2EE18882AAB8DB6003EAF46 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F2EE18922AAB8DB6003EAF46 /* CircularCompletionApp Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				F2EE18932AAB8DB6003EAF46 /* CircularCompletionAppApp.swift */,
+				F2EE18952AAB8DB6003EAF46 /* ContentView.swift */,
+				F2EE18972AAB8DB7003EAF46 /* Assets.xcassets */,
+				F2EE18992AAB8DB7003EAF46 /* Preview Content */,
+			);
+			path = "CircularCompletionApp Watch App";
+			sourceTree = "<group>";
+		};
+		F2EE18992AAB8DB7003EAF46 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F2EE189A2AAB8DB7003EAF46 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F2EE18AA2AAB8EE1003EAF46 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F2EE18AB2AAB8EE1003EAF46 /* WidgetKit.framework */,
+				F2EE18AD2AAB8EE1003EAF46 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F2EE18AF2AAB8EE1003EAF46 /* CircularCompletionWidget */ = {
+			isa = PBXGroup;
+			children = (
+				F2EE18B02AAB8EE1003EAF46 /* CircularCompletionWidget.swift */,
+				F2EE18B22AAB8EE1003EAF46 /* AppIntent.swift */,
+				F2EE18B42AAB8EE4003EAF46 /* Assets.xcassets */,
+				F2EE18B62AAB8EE4003EAF46 /* Info.plist */,
+			);
+			path = CircularCompletionWidget;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F2EE187D2AAB8DB5003EAF46 /* CircularCompletionApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2EE18A22AAB8DB7003EAF46 /* Build configuration list for PBXNativeTarget "CircularCompletionApp" */;
+			buildPhases = (
+				F2EE187A2AAB8DB5003EAF46 /* Sources */,
+				F2EE187B2AAB8DB5003EAF46 /* Frameworks */,
+				F2EE187C2AAB8DB5003EAF46 /* Resources */,
+				F2EE18A12AAB8DB7003EAF46 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2EE18912AAB8DB6003EAF46 /* PBXTargetDependency */,
+			);
+			name = CircularCompletionApp;
+			productName = CircularCompletionApp;
+			productReference = F2EE187E2AAB8DB5003EAF46 /* CircularCompletionApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F2EE188D2AAB8DB6003EAF46 /* CircularCompletionApp Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2EE189E2AAB8DB7003EAF46 /* Build configuration list for PBXNativeTarget "CircularCompletionApp Watch App" */;
+			buildPhases = (
+				F2EE188A2AAB8DB6003EAF46 /* Sources */,
+				F2EE188B2AAB8DB6003EAF46 /* Frameworks */,
+				F2EE188C2AAB8DB6003EAF46 /* Resources */,
+				F2EE18BD2AAB8EE4003EAF46 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2EE18B82AAB8EE4003EAF46 /* PBXTargetDependency */,
+			);
+			name = "CircularCompletionApp Watch App";
+			productName = "CircularCompletionApp Watch App";
+			productReference = F2EE188E2AAB8DB6003EAF46 /* CircularCompletionApp Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F2EE18A82AAB8EE1003EAF46 /* CircularCompletionWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2EE18BA2AAB8EE4003EAF46 /* Build configuration list for PBXNativeTarget "CircularCompletionWidgetExtension" */;
+			buildPhases = (
+				F2EE18A52AAB8EE1003EAF46 /* Sources */,
+				F2EE18A62AAB8EE1003EAF46 /* Frameworks */,
+				F2EE18A72AAB8EE1003EAF46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CircularCompletionWidgetExtension;
+			productName = CircularCompletionWidgetExtension;
+			productReference = F2EE18A92AAB8EE1003EAF46 /* CircularCompletionWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2EE18762AAB8DB5003EAF46 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					F2EE187D2AAB8DB5003EAF46 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					F2EE188D2AAB8DB6003EAF46 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					F2EE18A82AAB8EE1003EAF46 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = F2EE18792AAB8DB5003EAF46 /* Build configuration list for PBXProject "CircularCompletionApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F2EE18752AAB8DB5003EAF46;
+			productRefGroup = F2EE187F2AAB8DB5003EAF46 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2EE187D2AAB8DB5003EAF46 /* CircularCompletionApp */,
+				F2EE188D2AAB8DB6003EAF46 /* CircularCompletionApp Watch App */,
+				F2EE18A82AAB8EE1003EAF46 /* CircularCompletionWidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F2EE187C2AAB8DB5003EAF46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2EE18892AAB8DB6003EAF46 /* Preview Assets.xcassets in Resources */,
+				F2EE18862AAB8DB6003EAF46 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2EE188C2AAB8DB6003EAF46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2EE189B2AAB8DB7003EAF46 /* Preview Assets.xcassets in Resources */,
+				F2EE18982AAB8DB7003EAF46 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2EE18A72AAB8EE1003EAF46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2EE18B52AAB8EE4003EAF46 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2EE187A2AAB8DB5003EAF46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2EE18842AAB8DB5003EAF46 /* ContentView.swift in Sources */,
+				F2EE18822AAB8DB5003EAF46 /* CircularCompletionAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2EE188A2AAB8DB6003EAF46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2EE18962AAB8DB6003EAF46 /* ContentView.swift in Sources */,
+				F2EE18942AAB8DB6003EAF46 /* CircularCompletionAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2EE18A52AAB8EE1003EAF46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2EE18B12AAB8EE1003EAF46 /* CircularCompletionWidget.swift in Sources */,
+				F2EE18B32AAB8EE1003EAF46 /* AppIntent.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F2EE18912AAB8DB6003EAF46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2EE188D2AAB8DB6003EAF46 /* CircularCompletionApp Watch App */;
+			targetProxy = F2EE18902AAB8DB6003EAF46 /* PBXContainerItemProxy */;
+		};
+		F2EE18B82AAB8EE4003EAF46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F2EE18A82AAB8EE1003EAF46 /* CircularCompletionWidgetExtension */;
+			targetProxy = F2EE18B72AAB8EE4003EAF46 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F2EE189C2AAB8DB7003EAF46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F2EE189D2AAB8DB7003EAF46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		F2EE189F2AAB8DB7003EAF46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CircularCompletionApp Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = VT9QW74UCT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = CircularCompletionApp;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.JoynalAbedin.CircularCompletionApp;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JoynalAbedin.CircularCompletionApp.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		F2EE18A02AAB8DB7003EAF46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CircularCompletionApp Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = VT9QW74UCT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = CircularCompletionApp;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.JoynalAbedin.CircularCompletionApp;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JoynalAbedin.CircularCompletionApp.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		F2EE18A32AAB8DB7003EAF46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CircularCompletionApp/Preview Content\"";
+				DEVELOPMENT_TEAM = VT9QW74UCT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = CircularCompletionApp;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JoynalAbedin.CircularCompletionApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F2EE18A42AAB8DB7003EAF46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CircularCompletionApp/Preview Content\"";
+				DEVELOPMENT_TEAM = VT9QW74UCT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = CircularCompletionApp;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JoynalAbedin.CircularCompletionApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F2EE18BB2AAB8EE4003EAF46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VT9QW74UCT;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CircularCompletionWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CircularCompletionWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JoynalAbedin.CircularCompletionApp.watchkitapp.CircularCompletionWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		F2EE18BC2AAB8EE4003EAF46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VT9QW74UCT;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CircularCompletionWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CircularCompletionWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JoynalAbedin.CircularCompletionApp.watchkitapp.CircularCompletionWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F2EE18792AAB8DB5003EAF46 /* Build configuration list for PBXProject "CircularCompletionApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2EE189C2AAB8DB7003EAF46 /* Debug */,
+				F2EE189D2AAB8DB7003EAF46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2EE189E2AAB8DB7003EAF46 /* Build configuration list for PBXNativeTarget "CircularCompletionApp Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2EE189F2AAB8DB7003EAF46 /* Debug */,
+				F2EE18A02AAB8DB7003EAF46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2EE18A22AAB8DB7003EAF46 /* Build configuration list for PBXNativeTarget "CircularCompletionApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2EE18A32AAB8DB7003EAF46 /* Debug */,
+				F2EE18A42AAB8DB7003EAF46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2EE18BA2AAB8EE4003EAF46 /* Build configuration list for PBXNativeTarget "CircularCompletionWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2EE18BB2AAB8EE4003EAF46 /* Debug */,
+				F2EE18BC2AAB8EE4003EAF46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F2EE18762AAB8DB5003EAF46 /* Project object */;
+}
